@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "bierner.markdown-mermaid",
+    "bierner.markdown-preview-github-styles",
+    "ms-python.python",
+    "ms-azuretools.vscode-docker"
+  ]
+}

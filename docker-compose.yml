@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    env_file: .env
+    volumes:
+      - .:/data
+
+  web:
+    build: .
+    env_file: .env
+    environment:
+      - MODE=web
+    ports:
+      - "8080:5000"
